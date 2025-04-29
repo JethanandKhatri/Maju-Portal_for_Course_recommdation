@@ -1,0 +1,93 @@
+Course_Code,Course_Name,Department,Prerequisites,Credit_Hours,Difficulty
+CS101,Introduction to Programming,Computer Science,None,3,Easy
+CS102,Data Structures,Computer Science,CS101,3,Medium
+MATH101,Calculus I,Computer Science,None,3,Medium
+CS201,Object-Oriented Programming,Computer Science,"CS101,CS102",3,Medium
+CS202,Database Systems,Computer Science,CS101,3,Medium
+CS203,Computer Networks,Computer Science,CS101,3,Medium
+CS204,Web Development,Computer Science,"CS101,CS102",3,Medium
+CS205,Operating Systems,Computer Science,"CS102,MATH101",3,Hard
+CS206,Computer Architecture,Computer Science,CS101,3,Medium
+CS207,Theory of Computation,Computer Science,"CS102,MATH101",3,Hard
+CS208,Software Engineering Principles,Computer Science,CS201,3,Medium
+CS301,Artificial Intelligence,Computer Science,"CS102,MATH101",3,Hard
+CS302,Machine Learning,Computer Science,"CS301,STAT101",3,Hard
+CS303,Game Development,Computer Science,"CS201,CS202",3,Medium
+CS304,Internet of Things,Computer Science,"CS201,CS203",3,Medium
+CS307,Cybersecurity,Computer Science,"CS203,CS205",3,Hard
+CS308,Cloud Computing,Computer Science,"CS203,CS205",3,Medium
+CS309,Computer Graphics,Computer Science,"CS201,MATH101",3,Hard
+CS310,Blockchain Technology,Computer Science,"CS203,CS205",3,Hard
+CS311,Data Mining,Computer Science,"CS202,CS301",3,Hard
+DS110,Introduction to Data Science,Computer Science,"CS101,MATH101",3,Medium
+DS210,Advanced Data Science,Computer Science,"DS110,STAT101",3,Hard
+SE101,Introduction to Software Engineering,Software Engineering,None,3,Easy
+SE201,Software Requirements Engineering,Software Engineering,SE101,3,Medium
+SE202,Software Design,Software Engineering,"SE101,CS101",3,Medium
+SE203,Software Testing,Software Engineering,SE201,3,Medium
+SE204,User Interface Design,Software Engineering,SE201,3,Medium
+SE205,Software Architecture,Software Engineering,"SE201,SE202",3,Hard
+SE206,Software Quality Assurance,Software Engineering,"SE201,SE203",3,Medium
+SE207,Software Project Management,Software Engineering,SE201,3,Medium
+SE208,Mobile Application Development,Software Engineering,"SE202,CS201",3,Medium
+SE301,DevOps,Software Engineering,"SE201,SE203",3,Medium
+SE302,Software Design Patterns,Software Engineering,"SE202,CS201",3,Hard
+SE307,Web Engineering,Software Engineering,"SE202,CS204",3,Medium
+SE308,Enterprise Software Development,Software Engineering,"SE205,SE207",3,Hard
+SE309,Human-Computer Interaction,Software Engineering,"SE204,SE202",3,Medium
+SE310,Software Systems Architecture,Software Engineering,"SE205,SE207",3,Hard
+SE311,Quality Management Systems,Software Engineering,"SE206,SE207",3,Medium
+MGT101,Principles of Management,Business Administration,None,3,Easy
+ECO101,Principles of Economics,Business Administration,None,3,Easy
+MKT101,Principles of Marketing,Business Administration,None,3,Easy
+FIN101,Principles of Finance,Business Administration,None,3,Medium
+FIN201,Financial Management,Business Administration,FIN101,3,Medium
+ECO201,Microeconomics,Business Administration,ECO101,3,Medium
+MKT201,Consumer Behavior,Business Administration,MKT101,3,Medium
+MKT202,Digital Marketing,Business Administration,MKT101,3,Medium
+HRM201,Human Resource Management,Business Administration,MGT101,3,Medium
+HRM202,Organizational Behavior,Business Administration,MGT101,3,Medium
+BA201,Business Analytics,Business Administration,"ECO101,STAT101",3,Medium
+BA205,Operations Management,Business Administration,MGT101,3,Medium
+LE201,Business Law and Ethics,Business Administration,MGT101,3,Medium
+LE202,Corporate Governance,Business Administration,"MGT101,LE201",3,Hard
+SPM201,Sports Management,Business Administration,MGT101,3,Medium
+SPM202,Tourism and Hospitality Management,Business Administration,MGT101,3,Medium
+EC201,E-Commerce Fundamentals,Business Administration,"MKT101,CS101",3,Medium
+EC202,Supply Chain Management,Business Administration,"BA205,MGT101",3,Medium
+DM201,Digital Media Strategy,Business Administration,MKT101,3,Medium
+DM202,Brand Management,Business Administration,"MKT101,MKT201",3,Medium
+RE201,Real Estate Management,Business Administration,"FIN101,ECO101",3,Medium
+INV201,Investment Analysis,Business Administration,FIN101,3,Medium
+ENT301,Entrepreneurship,Business Administration,"MGT101,MKT101,FIN101",3,Hard
+FIN301,Corporate Finance,Business Administration,"FIN201,ECO201",3,Hard
+FIN302,Investment Banking,Business Administration,"FIN201,INV201",3,Hard
+INV301,Portfolio Management,Business Administration,"FIN201,INV201",3,Hard
+DM301,Digital Marketing Strategy,Business Administration,"MKT201,DM201",3,Hard
+ENT302,Business Plan Development,Business Administration,"ENT301,FIN201",3,Hard
+RE301,Real Estate Finance,Business Administration,"RE201,FIN201",3,Hard
+PSY101,Introduction to Psychology,Psychology,None,3,Easy
+PSY102,Developmental Psychology,Psychology,None,3,Easy
+STAT101,Statistics for Social Sciences,Psychology,None,3,Medium
+PSY201,Cognitive Psychology,Psychology,PSY101,3,Medium
+PSY202,Abnormal Psychology,Psychology,PSY101,3,Medium
+PSY203,Biological Psychology,Psychology,PSY101,3,Medium
+PSY204,Social Psychology,Psychology,PSY101,3,Medium
+PSY205,Research Methods in Psychology,Psychology,"PSY101,STAT101",3,Medium
+PSY206,Personality Psychology,Psychology,PSY101,3,Medium
+PSY207,Statistics in Psychological Research,Psychology,"PSY205,STAT101",3,Hard
+PSY208,Psychological Testing & Assessment,Psychology,"PSY101,STAT101",3,Medium
+PSY209,Health Psychology,Psychology,PSY101,3,Medium
+PSY210,Educational Psychology,Psychology,"PSY101,PSY102",3,Medium
+PSY211,Industrial/Organizational Psychology,Psychology,PSY101,3,Medium
+PSY212,Experimental Psychology,Psychology,"PSY101,PSY205",3,Hard
+PSY301,Clinical Psychology,Psychology,"PSY101,PSY202",3,Hard
+PSY302,Counseling Psychology,Psychology,"PSY101,PSY202",3,Hard
+PSY303,Treatment in Psychology,Psychology,"PSY101,PSY202",3,Hard
+PSY304,Experimental Psychology,Psychology,"PSY101,PSY205",3,Hard
+PSY305,Biological Bases of Behavior,Psychology,"PSY101,PSY203",3,Hard
+PSY306,Personality Disorders,Psychology,"PSY101,PSY202,PSY206",3,Hard
+PSY307,Psychotherapy Techniques,Psychology,"PSY301,PSY202",3,Hard
+PSY308,Child Psychology,Psychology,"PSY101,PSY102",3,Medium
+PSY309,Psychological Research Project,Psychology,"PSY205,PSY207",3,Hard
+PSY310,Cognitive Neuroscience,Psychology,"PSY201,PSY203",3,Hard
