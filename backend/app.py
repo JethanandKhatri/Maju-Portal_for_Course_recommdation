@@ -6,6 +6,7 @@ import os
 import random
 import json
 import hashlib
+from chatbot import setup_chatbot_routes
 
 class NumpyEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -18,8 +19,17 @@ class NumpyEncoder(json.JSONEncoder):
         return super(NumpyEncoder, self).default(obj)
 
 app = Flask(__name__, static_folder='../frontend/build', static_url_path='/')
-CORS(app)
+CORS(app, resources={
+    r"/api/*": {
+        "origins": ["http://localhost:3000"],
+        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        "allow_headers": ["Content-Type", "Authorization"]
+    }
+})
 app.json_encoder = NumpyEncoder
+
+# Setup chatbot routes
+setup_chatbot_routes(app)
 
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data'))
 
